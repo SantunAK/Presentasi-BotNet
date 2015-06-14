@@ -1,204 +1,184 @@
-doctype html
-html
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Botnet
+include header
+include menu-bar
+article
+  /// bagian kevin
+  section
+    h1.judul Botnet
+    h3 created by : 
+    p Kevin Suwantio (13 111 0585)
+    p Bukhari (13 111 1963)
+    p Santun (13 111 1254)
+    p Steven (13 111 1378)
 
-    link(rel='stylesheet', type='text/css', href='build/build.css')
+  section
+    h2 Apa itu botnet?
 
-  body
-    article
-      /// bagian kevin
-      section
-        h1.judul Botnet
-        h3 created by : 
-        p Kevin Suwantio (13 111 0585)
-        p Bukhari (13 111 1963)
-        p Santun (13 111 1254)
-        p Steven (13 111 1378)
-
-      section
-        h2 Apa itu botnet?
-
-      section
-        h2.bullet Botnet terdiri dari kata
-        ul
-          li "Bot" dan "Net" 
-          li dimana <i class="biru">"Bot"</i> adalah komputer 
-          li <i class="biru">"Net "</i> adalah jaringan .
-        
- 
-      section
-        h2 Pengertian lain :
-        br
-        ul
-          li <i class="abu">Dimana dalam arti lain adalah</i> 
-
-          li <b>"Bot"</b> dan <b>"Net"</b>
-          li Dimana <i class="biru">"Bot"</i> adalah komputer.
-          li <i class="biru">"Net"</i> adalah jaringan.
-          
-      section
-        h2.bullet Pengertian lain :
-        ul 
-          li Dimana dalam arti lain adalah 
-          li komputer yang terinfeksi oleh software-software (malware) dimana dengan terinfeksi itu maka si hacker dapat mengendalikan komputer yang terinfeksi, dan botnet tersebut dikendalikan dengan sebuah remote
-          li Kemudian malware yang disusupkan pada komputer tersebut bertugas untuk mencuri data-data penting (login, informasi credit card dan sebagainya), kemudian menginfeksi komputer lain.    
-      section
-        h2 Ilustrasi dasar Botnet
-        img(src="images/botnet.jpg")
+  section
+    h2.bullet Botnet terdiri dari kata
+    ul
+      li "Bot" dan "Net" 
+      li dimana <i class="biru">"Bot"</i> adalah komputer 
+      li <i class="biru">"Net "</i> adalah jaringan .
+           
+  section
+    h2.bullet Pengertian lain :
+    ul 
+      li Dimana dalam arti lain adalah 
+      li komputer yang terinfeksi oleh software-software (malware) dimana dengan terinfeksi itu maka si hacker dapat mengendalikan komputer yang terinfeksi, dan botnet tersebut dikendalikan dengan sebuah remote
+      li Kemudian malware yang disusupkan pada komputer tersebut bertugas untuk mencuri data-data penting (login, informasi credit card dan sebagainya), kemudian menginfeksi komputer lain.    
+  section
+    h2 Ilustrasi dasar Botnet
+    img(src="images/botnet.jpg")
+  
+  section
+    h2 Kejahatan yang disebabkan botnet
+    h3.Bullet Seperti:
+    ul
+      ol
+        li Pencurian Password
+        li Penyebaran mass-email(spam)
+        li Mencuri data website (Informasi, credit card dll)
+        li Penipuan dsb.
+  
+  section
+    h2 Sejarah Botnet
+    h4.bullet Sebelum adanya botnet, virus dan worm adalah ancaman yang paling berbahaya didunia.
+    h3.bullet kenapa?
+    
+  section 
+    h2.bullet Dikarenakan karena Botnet :
+    ul 
+      li attacker bisa melakukan remote terhadap komputer yang terinfeksi dari jarak jauh
+      li Namun, apabila virus / worm telah dihapus dari komputer maka attacker tidak bisa melakukan remote terhadap komputer tersebut lagi.
       
-      section
-        h2 Kejahatan yang disebabkan botnet
-        h3.Bullet Seperti:
-        ul
-          p
-            ol
-              li Pencurian Password
-              li Penyebaran mass-email(spam)
-              li Mencuri data website (Informasi, credit card dll)
-              li Penipuan dsb.
-      
-      section
-        h2 Sejarah Botnet
-        h4.bullet Sebelum adanya botnet, virus dan worm adalah ancaman yang paling berbahaya didunia.
-        h3.bullet kenapa?
-        
-      section 
-        h2.bullet Dikarenakan karena Botnet :
-        ul 
-          li attacker bisa melakukan remote terhadap komputer yang terinfeksi dari jarak jauh
-          li Namun, apabila virus / worm telah dihapus dari komputer maka attacker tidak bisa melakukan remote terhadap komputer tersebut lagi.
-          
-       section
-          h2.bullet contoh worm dan virus :
-          ul
-            li Melissa email worm(1999),ILOVEYOU(2000),CodeRed(2001),Slammer(2003), dan Sasser (2004).
-      
-       section
-          h2 Asal mula botnet :
-          ul
-            li Awalnya konsep remote bot muncul dari IRC(Internet Relay Chat).
-            li Digunakan untuk membantu administrator mengendalikan channel-channel yang terdapat pada IRC dan salah satu.
-            li contoh implementasinya adalah "Eggdrop" pada tahun 1993.
-            li Namun seiiring waktu berjalan attacker mulai menyadari bahwa bot dapat digunakan untuk hal-hal bersifat kejahatan dan dari sinilah asal mula botnet.
+   section
+      h2.bullet contoh worm dan virus :
+      ul
+        li Melissa email worm(1999),ILOVEYOU(2000),CodeRed(2001),Slammer(2003), dan Sasser (2004).
+  
+   section
+      h2 Asal mula botnet :
+      ul
+        li Awalnya konsep remote bot muncul dari IRC(Internet Relay Chat).
+        li Digunakan untuk membantu administrator mengendalikan channel-channel yang terdapat pada IRC dan salah satu.
+        li contoh implementasinya adalah "Eggdrop" pada tahun 1993.
+        li Namun seiiring waktu berjalan attacker mulai menyadari bahwa bot dapat digunakan untuk hal-hal bersifat kejahatan dan dari sinilah asal mula botnet.
 
-      section
-        h2.bullet contoh worm dan virus :
-        ul
-          li Melissa email worm(1999),ILOVEYOU(2000),CodeRed(2001),Slammer(2003), dan Sasser (2004).
-   
-      //bagian steven
-      section
-        h2 Jika anda webmaster dari website tersebut, apa yang harus dilakukan?  
-        
-      section        
-        h2.bullet Pertama
-        ul
-          li Carilah malware-malware yang sedang bersembunyi pada website anda. Malware bisa jadi menyusup ke dalam script-script website anda, atau menyamar menjadi file-file lain, dsb. Meskipun kurang akurat, Google Webmaster Tool dapat membantu melakukan tracking malware. 
-          li Daftarkan saja akun anda pada <a href= "https://www.google.com/webmasters"> Google Webmaster </a>
-      section         
-        h2.bullet Kemudian
-        ul
-          li jika sudah bersih, submit request reconsideration pada Google melalui form ticket pada URL berikut: 
-          li <a href ="https://www.google.com/webmasters/tools/reconsideration">Google Webmaster Reconsideration </a> 
-          li Sayangnya Google kurang bertanggungjawab dalam hal ini.
-          li Kadang setelah tiket disubmit, anda harus menunggu 1 hari – 1 minggu – 1 bulan agar website anda direconsider lagi.
+  section
+    h2.bullet contoh worm dan virus :
+    ul
+      li Melissa email worm(1999),ILOVEYOU(2000),CodeRed(2001),Slammer(2003), dan Sasser (2004).
 
-      section         
-        h2.bullet Terakhir
-        ul
-          li Disarankan untuk melindungi komputer anda terhadap virus paling dikenal, sehingga anda mungkin dapat mendeteksi dan menghapus virus sebelum dapat melakukan kerusakan apapun (lihat Memahami Anti-Virus Software untuk informasi lebih lanjut ). 
-          li Karena penyerang terus menulis virus baru, penting untuk menjaga definisi anda up to date. Beberapa vendor anti-virus juga menawarkan software anti-rootkit. 
-          li :alu Instal firewall - Firewall mungkin dapat mencegah beberapa jenis infeksi oleh memblokir lalu lintas berbahaya sebelum dapat memasuki komputer anda dan membatasi lalu lintas yang anda kirim (lihat Memahami Firewall untuk informasi lebih lanjut).
- 
-      section
-        h2.bullet <small>Terakhir...</small>
-        ul      
-          li Beberapa sistem operasi benar-benar termasuk firewall, tetapi Anda harus memastikan diaktifkan.
-          li Gunakan password yang baik - Pilih password yang akan sulit bagi penyerang untuk menebak, dan menggunakan password yang berbeda untuk program dan perangkat yang berbeda 
-          li lihat Memilih dan Melindungi Sandi untuk informasi lebih lanjut). Jangan memilih opsi yang memungkinkan komputer untuk mengingat password anda.
-          li Oleh sebab itu berhati-hatilah terhadap malware. Bisa jadi saat ini website atau komputer pengunjung website kita telah dikonversi menjadi sepasukan zombie.
-          li Spread awareness tentang Botnet kepada sesama pemilik website di samping kita.
-      
-      //bagian santun
-      section
-        h2 Cara Kerja Botnet
-        h3 Terdapat berbagai macam variasi Botnet. 
-        h3 Section ini akan membahas BotNet Trojan.
+  //bagian steven
+  section
+    h2 Jika anda webmaster dari website tersebut, apa yang harus dilakukan?  
+    
+  section        
+    h2.bullet Pertama
+    ul
+      li Carilah malware-malware yang sedang bersembunyi pada website anda. Malware bisa jadi menyusup ke dalam script-script website anda, atau menyamar menjadi file-file lain, dsb. Meskipun kurang akurat, Google Webmaster Tool dapat membantu melakukan tracking malware. 
+      li Daftarkan saja akun anda pada <a href= "https://www.google.com/webmasters"> Google Webmaster </a>
+  section         
+    h2.bullet Kemudian
+    ul
+      li jika sudah bersih, submit request reconsideration pada Google melalui form ticket pada URL berikut: 
+      li <a href ="https://www.google.com/webmasters/tools/reconsideration">Google Webmaster Reconsideration </a> 
+      li Sayangnya Google kurang bertanggungjawab dalam hal ini.
+      li Kadang setelah tiket disubmit, anda harus menunggu 1 hari – 1 minggu – 1 bulan agar website anda direconsider lagi.
 
-      //bagian Bukhari-1
-      section
-        h2.bullet Tipe-tipe Botnet
-        ul
-          li <span class="title">Legal Botnet</span>
-             Digunakan secara luas pada beberapa tipe IRC jaringan yang terhubung dan memungkinkan mengatur model saluran pada komputer lain untuk menjaga kayanan saluran IRC.
-          li <span class="title">Illegal Botnet</span>
-             Digunakan untuk memjebol sistem keamanan komputer dengan mengirimkan malware yang akan menggunakan saluran komunikasi komputer jaringan berbasi standar protokol jaringan seperti IRC.
+  section         
+    h2.bullet Terakhir
+    ul
+      li Disarankan untuk melindungi komputer anda terhadap virus paling dikenal, sehingga anda mungkin dapat mendeteksi dan menghapus virus sebelum dapat melakukan kerusakan apapun (lihat Memahami Anti-Virus Software untuk informasi lebih lanjut ). 
+      li Karena penyerang terus menulis virus baru, penting untuk menjaga definisi anda up to date. Beberapa vendor anti-virus juga menawarkan software anti-rootkit. 
+      li :alu Instal firewall - Firewall mungkin dapat mencegah beberapa jenis infeksi oleh memblokir lalu lintas berbahaya sebelum dapat memasuki komputer anda dan membatasi lalu lintas yang anda kirim (lihat Memahami Firewall untuk informasi lebih lanjut).
+
+  section
+    h2.bullet <small>Terakhir...</small>
+    ul      
+      li Beberapa sistem operasi benar-benar termasuk firewall, tetapi Anda harus memastikan diaktifkan.
+      li Gunakan password yang baik - Pilih password yang akan sulit bagi penyerang untuk menebak, dan menggunakan password yang berbeda untuk program dan perangkat yang berbeda 
+      li lihat Memilih dan Melindungi Sandi untuk informasi lebih lanjut). Jangan memilih opsi yang memungkinkan komputer untuk mengingat password anda.
+      li Oleh sebab itu berhati-hatilah terhadap malware. Bisa jadi saat ini website atau komputer pengunjung website kita telah dikonversi menjadi sepasukan zombie.
+      li Spread awareness tentang Botnet kepada sesama pemilik website di samping kita.
+  
+  //bagian santun
+  section
+    h2 Cara Kerja Botnet
+    h3 Terdapat berbagai macam variasi Botnet. 
+    h3 Section ini akan membahas BotNet Trojan.
+
+  //bagian Bukhari-1
+  section
+    h2.bullet Tipe-tipe Botnet
+    ul
+      li <span class="title">Legal Botnet</span>
+         Digunakan secara luas pada beberapa tipe IRC jaringan yang terhubung dan memungkinkan mengatur model saluran pada komputer lain untuk menjaga kayanan saluran IRC.
+      li <span class="title">Illegal Botnet</span>
+         Digunakan untuk memjebol sistem keamanan komputer dengan mengirimkan malware yang akan menggunakan saluran komunikasi komputer jaringan berbasi standar protokol jaringan seperti IRC.
 
 
-      section
-        h2.bullet BotNet Trojan
-        p.bullet Kalau sebuah system sudah terkena BotNet Trojan, maka komputer tersebut akan mengirimkan beberapa Informasi log dari system. Dimana kita juga bisa mengontrol komputer target. Apabila dalam sebuah Windows Server maka kita bisa menggunakan Remote Desktop untuk bisa mengaksesnya. Dan apabila pada unix maka kita bisa mengambil logging password root. Kemudian kita bisa menggunakan remote login dari hak akses root.
-        
-      section
-        h2.bullet <small>BotNet Trojan...</small>
-        p.bullet BotNet biasanya dibangun menggunakan MBR (master boot record). Sebuah rootkit yang dilaksanakan pada waktu boot, sebelum sistem operasi dibuka. Setelah mesin terinfeksi, maka hasil panen malware dan upload data dalam 20 menit akan dikirimkan. Data yang dicuri termasuk e-mail account, Windows / Unix password, dan FTP credentials POP / SMTP account, Control Panel, dll.
+  section
+    h2.bullet BotNet Trojan
+    p.bullet Kalau sebuah system sudah terkena BotNet Trojan, maka komputer tersebut akan mengirimkan beberapa Informasi log dari system. Dimana kita juga bisa mengontrol komputer target. Apabila dalam sebuah Windows Server maka kita bisa menggunakan Remote Desktop untuk bisa mengaksesnya. Dan apabila pada unix maka kita bisa mengambil logging password root. Kemudian kita bisa menggunakan remote login dari hak akses root.
+    
+  section
+    h2.bullet <small>BotNet Trojan...</small>
+    p.bullet BotNet biasanya dibangun menggunakan MBR (master boot record). Sebuah rootkit yang dilaksanakan pada waktu boot, sebelum sistem operasi dibuka. Setelah mesin terinfeksi, maka hasil panen malware dan upload data dalam 20 menit akan dikirimkan. Data yang dicuri termasuk e-mail account, Windows / Unix password, dan FTP credentials POP / SMTP account, Control Panel, dll.
 
-      section
-        h3 Ilustrasi cara kerja botnet
-        img(src="images/illust_carakerja.jpg")
+  section
+    h3 Ilustrasi cara kerja botnet
+    img(src="images/illust_carakerja.jpg")
 
-      section
-        p Hasil dari informasi akan diterima dan direport dalam Computer Server Attacker, sehingga informasi yang masuk bisa disimpan dan dimanipulasi.
-        img(src="images/botnet_track.png")
-        h5 Contoh tracing pengiriman email oleh botnet
+  section
+    p Hasil dari informasi akan diterima dan direport dalam Computer Server Attacker, sehingga informasi yang masuk bisa disimpan dan dimanipulasi.
+    img(src="images/botnet_track.png")
+    h5 Contoh tracing pengiriman email oleh botnet
 
-      section
-        h3 Begitu banyak cara untuk mendapatkan Informasi. Dan yang paling berbahaya apabila ada informasi sensitif anda ada didalam sana. Misalkan informasi Paypal, LR, atau akun bank Yang ada di email Anda. Sungguh sangat berbahaya!
+  section
+    h3 Begitu banyak cara untuk mendapatkan Informasi. Dan yang paling berbahaya apabila ada informasi sensitif anda ada didalam sana. Misalkan informasi Paypal, LR, atau akun bank Yang ada di email Anda. Sungguh sangat berbahaya!
 
-      section
-        h3 Contoh Informasi User Panel yang didapatkan Botnet
-        img(src="images/userpanel.png")
+  section
+    h3 Contoh Informasi User Panel yang didapatkan Botnet
+    img(src="images/userpanel.png")
 
-      section
-        h3 Contoh Informasi FTP Acccount yang didapatkan Botnet
-        img(src="images/ftp.png")
-      //bagian santun end
+  section
+    h3 Contoh Informasi FTP Acccount yang didapatkan Botnet
+    img(src="images/ftp.png")
+  //bagian santun end
 
-      section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
+  section
+    h2 Syntax Highlighting
+    h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+    pre
+      code.language-javascript.
+        bespoke.from('article', [
+          classes(),
+          keys(),
+          touch(),
+          bullets('li, .bullet')
+        ]);
 
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+  section(data-bespoke-hash='named-route')
+    h2 Named Route
+    h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
+    p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
 
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+  section.emphatic-text(data-bespoke-backdrop='emphatic')
+    h2 Emphatic Slide!
+    h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
 
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+  section
+    h2.bullet Just the beginning...
+    br
+    ul
+      li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
+      li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
+      li Edit JavaScript in <em>'src/scripts/main.js'</em>
+    br
+    ul
+      li
+        strong Enjoy! :)
+        a(href='http://twitter.com/markdalgleish')  -@markdalgleish
 
-    script(src='build/build.js')
+include footer
