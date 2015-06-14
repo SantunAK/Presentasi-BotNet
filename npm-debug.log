@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bespoke-theme-coverflow' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of e:\tugas bespoke\presentasi\package.json
+5 warn package.json presentation-hello-world@0.0.0 No repository field.
+6 warn package.json presentation-hello-world@0.0.0 No license field.
+7 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke\package.json
+8 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-backdrop\package.json
+9 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-bullets\package.json
+10 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-forms\package.json
+11 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-hash\package.json
+12 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-keys\package.json
+13 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-progress\package.json
+14 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-scale\package.json
+15 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-theme-cube\package.json
+16 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\bespoke-touch\package.json
+17 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\debowerify\package.json
+18 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\del\package.json
+19 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gh-pages\package.json
+20 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp\package.json
+21 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-autoprefixer\package.json
+22 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-browserify\package.json
+23 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-connect\package.json
+24 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-csso\package.json
+25 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-jade\package.json
+26 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-plumber\package.json
+27 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-rename\package.json
+28 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-stylus\package.json
+29 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-uglify\package.json
+30 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\gulp-util\package.json
+31 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\insert-css\package.json
+32 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\opn\package.json
+33 verbose installManyTop reading scoped package data from e:\tugas bespoke\presentasi\node_modules\through\package.json
+34 info package.json bespoke@1.0.0 No license field.
+35 info package.json bespoke-forms@1.0.0 No license field.
+36 info package.json bespoke-bullets@1.1.0 No license field.
+37 info package.json bespoke-backdrop@1.0.0 No license field.
+38 info package.json bespoke-hash@1.0.2 No license field.
+39 info package.json bespoke-keys@1.0.0 No license field.
+40 info package.json bespoke-progress@1.0.0 No license field.
+41 info package.json bespoke-theme-cube@2.0.1 No license field.
+42 info package.json bespoke-scale@1.0.1 No license field.
+43 info package.json bespoke-touch@1.0.0 No license field.
+44 info package.json debowerify@0.7.1 license should be a valid SPDX license expression
+45 info package.json gh-pages@0.2.0 No license field.
+46 info package.json gulp-jade@0.6.1 No license field.
+47 info package.json gulp-plumber@0.6.6 No license field.
+48 info package.json gulp-rename@1.2.2 No license field.
+49 info package.json gulp-stylus@1.3.7 No license field.
+50 info package.json gulp-util@2.2.20 No license field.
+51 verbose readDependencies loading dependencies from e:\tugas bespoke\presentasi\package.json
+52 silly cache add args [ 'bespoke-theme-coverflow', null ]
+53 verbose cache add spec bespoke-theme-coverflow
+54 silly cache add parsed spec { raw: 'bespoke-theme-coverflow',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'bespoke-theme-coverflow',
+54 silly cache add   rawSpec: '',
+54 silly cache add   spec: '*',
+54 silly cache add   type: 'range' }
+55 silly addNamed bespoke-theme-coverflow@*
+56 verbose addNamed "*" is a valid semver range for bespoke-theme-coverflow
+57 silly addNameRange { name: 'bespoke-theme-coverflow', range: '*', hasData: false }
+58 silly mapToRegistry name bespoke-theme-coverflow
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/bespoke-theme-coverflow
+62 verbose addNameRange registry:https://registry.npmjs.org/bespoke-theme-coverflow not in flight; fetching
+63 verbose request uri https://registry.npmjs.org/bespoke-theme-coverflow
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 5:42:16 PM
+66 verbose request id edf6714fa6c50a80
+67 http request GET https://registry.npmjs.org/bespoke-theme-coverflow
+68 http 404 https://registry.npmjs.org/bespoke-theme-coverflow
+69 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'cache-control': 'max-age=0',
+69 verbose headers   'content-length': '51',
+69 verbose headers   'accept-ranges': 'bytes',
+69 verbose headers   date: 'Sun, 14 Jun 2015 10:42:18 GMT',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   age: '0',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+69 verbose headers   'x-cache': 'MISS',
+69 verbose headers   'x-cache-hits': '0',
+69 verbose headers   'x-timer': 'S1434278537.385556,VS0,VE1070' }
+70 silly get cb [ 404,
+70 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+70 silly get     'content-type': 'application/json',
+70 silly get     'cache-control': 'max-age=0',
+70 silly get     'content-length': '51',
+70 silly get     'accept-ranges': 'bytes',
+70 silly get     date: 'Sun, 14 Jun 2015 10:42:18 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     age: '0',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-hkg6825-HKG',
+70 silly get     'x-cache': 'MISS',
+70 silly get     'x-cache-hits': '0',
+70 silly get     'x-timer': 'S1434278537.385556,VS0,VE1070' } ]
+71 verbose stack Error: 404 Not Found: bespoke-theme-coverflow
+71 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+71 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+71 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:368:22)
+71 verbose stack     at Request.emit (events.js:110:17)
+71 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1219:14)
+71 verbose stack     at Request.emit (events.js:129:20)
+71 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1167:12)
+71 verbose stack     at IncomingMessage.emit (events.js:129:20)
+71 verbose stack     at _stream_readable.js:908:16
+71 verbose stack     at process._tickCallback (node.js:355:11)
+72 verbose statusCode 404
+73 verbose pkgid bespoke-theme-coverflow
+74 verbose cwd e:\tugas bespoke\presentasi
+75 error Windows_NT 6.3.9600
+76 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bespoke-theme-coverflow"
+77 error node v0.12.4
+78 error npm  v2.10.1
+79 error code E404
+80 error 404 Not Found: bespoke-theme-coverflow
+80 error 404
+80 error 404 'bespoke-theme-coverflow' is not in the npm registry.
+80 error 404 You should bug the author to publish it (or use the name yourself!)
+80 error 404 It was specified as a dependency of 'presentation-hello-world'
+80 error 404
+80 error 404 Note that you can also install from a
+80 error 404 tarball, folder, http url, or git url.
+81 verbose exit [ 1, true ]
