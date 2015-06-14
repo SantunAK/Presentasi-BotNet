@@ -260,11 +260,42 @@ html
          h2 Bagaimana kita bisa mentrack botnet ?
          ul 
            li 
-           li Untuk mentrack <i class="biru">Botnet</i> kita bisa menggunakan bantuan <i class="biru">"honeypot"</i>
+           li Untuk mentrack <i class="biru">Botnet</i> kita bisa menggunakan bantuan <i class="biru">"honeypots"</i>
            li Tetapi sebelum melacak honeypots kita harus mengumpulkan data dati <i class="biru">Botnet</i> yang sudah ada dan diketahui.
            li Ini bisa didasarkan pada <i class="biru">Botnet</i> yang sudah pernah ditangkap.
            li Honeypots dikabarkan bisa untuk mengobservasi perkembangan <i class="biru">Botnet</i>.
-          
+           
+       section
+         ul 
+           li Mendapatkan informasi dengan bantuan <i class="biru">honeynets</i>
+           li Dari bab sebelumnya diketahui kalau kita memerlukan informasi sensitif dari tiap botnet yang memungkinkan kita untuk meletakkan botnet palsu ke dalam botnet.
+           li Informasi yang diperlukan antara lain :
+           
+       section
+         ul 
+           li 1.DNS/IP-address of IRC server and port number
+           li 2.(opsional)password untuk connect ke server IRC
+           li 3. Nickname dari bot dan struktur identitas
+           li 4. Channel untuk Join dan password channel.
+           img(src="images/botnet-tracking.png")
+       
+       section 
+         h2 Setelah Mendapatkan informasi tentang Botnet. Langkah selanjutnya adalah Mengobservasi botnet.
+         
+       section
+         ul
+           li Observasi Botnet
+           li Karena kita sudah memliki referensi data dari botnet , ini tidak akan sulit.
+           li Kita hanya perlu menngeset IRRSI(Console yang berbasis pada klien IRC) atau klien IRC lain dan mencoba connect ke network.
+           li Pada jaringan kecil (di bawah 50 jaringan), ada kemungkinan klien akan teridentifikasi karena tidak menjawab command yang valid.
+           li Untuk menghindari deteksi, kita bisa mencoba menyembunyikan diri kita.
+           
+           
+       section
+         ul 
+           li <u class="merah">Caranya</u> 
+           li Matikan semua auto respon yang mungkin merespon 
+           li Dengan ini maka kita bisa masuk tanpa terdeteksi.
         
       
         
