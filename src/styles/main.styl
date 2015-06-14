@@ -4,7 +4,7 @@
 // Import CSS from "node_modules" and "bower_components"
 // thanks to Stylus' "import css" and "paths" options
 
-@import 'prism/themes/prism-okaidia.css'
+// @import 'prism/themes/prism-okaidia.css'
 // Check out "bower_components/prism/themes/" for available themes
 
 slide_width = 90%
@@ -13,43 +13,43 @@ slide_height = 600px
 slide_transition_rotate_y = 90deg
 slide_transition_rotate_z = 120deg
 
+// background
+.bespoke-parent
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 20%,rgba(0,0,0,1) 90%,rgba(0,0,0,1) 100%), url('../images/anonymous-wallpaper.jpg') no-repeat fixed center
+  
+  
 // menu
 *
   box-sizing: border-box
 
-.wrap-menu
-  background-color: #EAEAEA
-  z-index: -1
-  
 nav
-  background-color: #F8F8F8
+  background-color: rgba(255, 255, 255, 0.4)
   position: relative
   top: 4px
   min-height: 50px
   margin-bottom: 20px
-  border-bottom: 1px solid #ccc
   display: block
   z-index: 10000
 
 .container
-  padding: 10px 15px
+  padding: 10px 30px
   margin-left: auto
   margin-right: auto
   
 .navbar-header
-  width: 200px
   margin-left: auto
   margin-right: auto
-  text-align: center
   vertical-align: middle
+  display: inline-block
 
 .navbar-brand
+  padding: 0 0.3em
   display: block
-  color: #aaa
+  color: #eee
   text-decoration: none
 
 .navbar-brand:hover
-  color: #888
+  color: #aaa
 
 .judul
   color: black

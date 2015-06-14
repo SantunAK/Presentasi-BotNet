@@ -1,7 +1,26 @@
+// var bespoke = require('bespoke'),
+  // nebula = require('../../../lib/bespoke-theme-nebula.js'),
+  // keys = require('bespoke-keys'),
+  // touch = require('bespoke-touch'),
+  // bullets = require('bespoke-bullets'),
+  // scale = require('bespoke-scale'),
+  // progress = require('bespoke-progress'),
+  // backdrop = require('bespoke-backdrop');
+
+// bespoke.from('article', [
+  // nebula(),
+  // keys(),
+  // touch(),
+  // bullets('li, .bullet'),
+  // scale(),
+  // progress(),
+  // backdrop()
+// ]);
+
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
 var bespoke = require('bespoke'),
   //cube = require('bespoke-theme-cube'),
-  terminal = require('bespoke-theme-terminal')
+  //terminal = require('bespoke-theme-terminal')
   //mozillaSandstone = require('bespoke-theme-mozilla-sandstone'),
   nebula = require('bespoke-theme-nebula'),
   //fancy = require('bespoke-theme-fancy'),
